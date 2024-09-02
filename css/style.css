@@ -1,6 +1,32 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap'); */
 
 
+/* jeigu fontas turi 100-400 stilius,  siaip kuo maziau tureti font failu*/
+/* @font-face {
+    font-family: "Marcellus";
+    src: url('../fonts/Marcellus_SC/MarcellusSC-thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Marcellus";
+    src: url('../fonts/Marcellus_SC/MarcellusSC-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Marcellus";
+    src: url('../fonts/Marcellus_SC/MarcellusSC-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+prideti i font style italic 
+@font-face {
+    font-family: "Marcellus";
+    src: url('../fonts/Marcellus_SC/MarcellusSC-Light.ttf');
+    font-weight: 300;
+    font-style: italic;
+}  */
 @font-face {
     font-family: "Marcellus";
     src: url('../fonts/Marcellus_SC/MarcellusSC-Regular.ttf');
