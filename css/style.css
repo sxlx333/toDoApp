@@ -1,4 +1,5 @@
 @import url(./components/footer.css);
+@import url(./components/header.css);
 
 
 /* @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap'); */
@@ -49,58 +50,12 @@ body {
     font-style: normal;
     font-size: 1.3rem;
 }
-.main-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: 2rem;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.133);
-    margin-bottom: 1rem;
-}
 
-.main-header > .logo{
-    height: 3rem;
-
-
-}
-.main-header > .stats {
-    display:flex;
-    align-items: center;
-    gap: 2rem;
-
-}
-.main-header .detail{
-    display:flex;
-    gap:0.2em;
-    align-items: baseline;
-
-}
-.main-header .label {
-    display: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-}
-.main-header .value{
-    font-family: "Marcellus", serif;
-    font-weight: normal;
-    font-size: 1rem;
-}
 
 main {
     min-height: calc(100vh - 12rem);
 }
 
 
-@media (min-width: 40rem ) {
-    .main-header .label{
-        display: block;
-    }
-}
+
   
