@@ -41,7 +41,18 @@
     font-weight: normal;
     font-size: 1rem;
 }
-@media (min-width: 40rem ) {
+.main-header .btn1 > .icon + .text {
+    display: none;
+}
+@media (min-width: 500px ) {
+    .main-header .btn1 > .icon + .text {
+        display: inline;
+    }
+}
+@media (min-width: 877px ) {
+    .main-header {
+        gap: 3rem;
+    }
     .main-header .label{
         display: block;
     }

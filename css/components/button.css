@@ -1,0 +1,15 @@
+.btn1 {
+    padding: 0.8rem 1rem;
+    background-color: #36f;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1em;
+    border: none;
+    border-radius: 0.3em;
+}
+.btn1 > .icon {
+
+}
+.btn > .text {
+    
+}
