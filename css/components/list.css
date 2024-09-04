@@ -1,0 +1,21 @@
+.main-content{
+    padding:2rem;
+}
+.task-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.main-content > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.main-content .title {
+    border-bottom: 0.1rem solid #ccc;
+}
+.main-content .list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
