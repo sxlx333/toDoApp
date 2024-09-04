@@ -61,6 +61,7 @@
     padding: 0.5em 0;
     background-color: #ddd;
     box-shadow: 0 0.2rem 0.5rem #0005;
+    z-index: 1;
 }
 .task .more-actions > button {
     background-color: transparent;
