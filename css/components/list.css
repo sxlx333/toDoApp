@@ -1,23 +1,88 @@
 .main-content{
     padding:2rem;
 }
+.main-title {
+    line-height: 1.1em;
+    margin-bottom: 2rem;
+}
 .task-content {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
-.main-content > .column {
+.task-content > .column {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.main-content .title {
+.task-content .title {
     border-bottom: 0.1rem solid #ccc;
 }
-.main-content .list {
+.task-content .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+.task-content .task {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 0.9rem #0003;
+}
+.task > .header {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.task > .header > .more {
+    border: 0.1rem solid #ccc;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    user-select: none;
+}
+.task > .header > .more:hover {
+    background-color: #ccc;
+}
+.task > .header > .more-actions {
+    display:none;
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+    padding: 0.5em 0;
+    background-color: #ddd;
+    box-shadow: 0 0.2rem 0.5rem #0005;
+}
+.task .more-actions > button {
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1em;
+    padding: 0.5em 1em;
+
+}
+.task  .more-actions > button:hover {
+background-color: #eee;
+}
+.task > .header > .more-actions[data-visible='true']{
+    display: flex;
+}
+.task > .content {
+
+}
+.task > .footer {
+
 }
 
 
