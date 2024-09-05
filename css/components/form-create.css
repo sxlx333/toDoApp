@@ -7,6 +7,7 @@
     bottom: 0;
     left: 0;  tas pats */
     inset: 0;
+    z-index: 3;
 }
 .lightbox[data-visible="false"] {
     display: none;
